@@ -1,0 +1,5 @@
+python main_train.py --gpus 0,1 \
+		     --solver SSH/models/solver_ssh_resnet.prototxt \
+                     --pretrained data/imagenet_models/ResNet-50-model.caffemodel \
+                     --cfg SSH/configs/wider_multi.yml  \
+                     --iters 84000
